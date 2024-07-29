@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(to left, #20cfc4, #aec7cf);
+}
+
+.container {
+  margin: auto;
+  max-width: 50%;
+}
+h1 {
+  padding: 16px 0;
+  color: #284c54;
+  text-align: center;
+  border-radius: 6px;
+  text-transform: uppercase;
+  border: 3px solid #1e5d6f;
+}
+
+h3 {
+  margin: 40px 0;
+  color: #284c54;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 70%;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+span {
+  color: #b3f8e0;
+  font-weight: bold;
+  font-size: larger;
+}
+
+button {
+  margin: auto;
+  color: #fff;
+  outline: none;
+  display: block;
+  font-weight: bold;
+  padding: 20px 30px;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  background: #284c54;
+  text-transform: uppercase;
+  border: 1px solid #284c54;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #284c54;
+  background: transparent;
+  border: 1px solid #284c54;
+}
+
+.r-learning {
+  color: #b3f8e0;
+  font-style: italic;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.r-learning:hover {
+  text-decoration: underline;
+}
+
+.ml-text {
+  color: #284c54;
+  line-height: 1.5;
+  margin: 40px 0;
+}
+
+.ml-link {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer {
+  margin: 40px 0;
+  color: #284c54;
+  font-size: small;
+  text-align: center;
+}
+
+.zenande {
+  color: #284c54;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.zenande:hover {
+  text-decoration: underline;
+}
